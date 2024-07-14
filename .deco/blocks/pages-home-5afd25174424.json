@@ -1,42 +1,131 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p><strong><span style=\"color: rgb(180, 110, 110)\">Your Ultimate Guide to Wellness and Health</span></strong></p>",
+      "cta": [],
+      "description": "WellnessHub is dedicated to bringing you the latest and most effective approaches to wellness, holistic health, and personal development. Our platform features expert advice, inspirational stories, and practical tips on everything from mindfulness and nutrition to fitness and mental well-being. Whether you're a health enthusiast, a wellness professional, or simply curious about living a balanced life, WellnessHub provides a comprehensive and supportive resource for all your wellness needs. Join our community, explore new paths to well-being, and embark on a journey to a healthier you.",
+      "image": "https://cdn.dribbble.com/users/3050354/screenshots/14646894/gif2.gif"
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx",
+      "logos": [
+        {
+          "src": "https://example.com/logo1.png"
+        },
+        {
+          "src": "https://example.com/logo2.png"
+        },
+        {
+          "src": "https://example.com/logo3.png"
+        },
+        {
+          "src": "https://example.com/logo4.png"
+        },
+        {
+          "src": "https://example.com/logo5.png"
+        },
+        {
+          "src": "https://example.com/logo6.png"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "description": "At WellnessHub, we are passionate about promoting holistic health and well-being for everyone. Our mission is to provide up-to-date information on the latest wellness trends, holistic practices, and lifestyle choices that support overall health. We offer insightful articles, practical advice, and inspiring stories to empower you on your journey to wellness. Whether you're exploring mindfulness techniques, improving your diet, or enhancing your fitness routine, WellnessHub is your trusted companion for holistic living. Join us as we embrace wellness and empower positive change.",
+      "title": "What we DO",
+      "image": "https://media.licdn.com/dms/image/D4D12AQFvEJauDpjk8Q/article-cover_image-shrink_600_2000/0/1696338757380?e=2147483647&v=beta&t=ZzRkxXB7tVi6GJcFPxMT44yA0gNgrsUTDHWvcY9ge78",
+      "tagline": "EMBRACE WELLNESS"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "FEATURED WELLNESS ARTICLES",
+      "description": "Explore our latest articles on holistic health and wellness",
+      "posts": [
+        {
+          "tags": [],
+          "title": "Mindfulness: A Path to Inner Peace",
+          "author": "Dr. Emily Roberts",
+          "excerpt": "Discover the benefits of mindfulness practice and how it can reduce stress, enhance focus, and promote emotional well-being.",
+          "image": "https://pro2-bar-s3-cdn-cf1.myportfolio.com/97b1d4bc028e3890ce75267deb159e95/24e71a4a26b5d319d6ac79ee_rw_600.gif?h=4c5ec98e37c4fea0b6776ef182152b43",
+          "date": "7 July"
+        },
+        {
+          "tags": [],
+          "title": "Nutrition Essentials: Fueling Your Body Right",
+          "author": "Dr. James Mitchell",
+          "excerpt": "Learn about the importance of balanced nutrition and how it supports overall health and vitality.",
+          "image": "https://cdnassets.hw.net/dims4/GG/9f861d7/2147483647/thumbnail/300x200%3E/quality/90/?url=https%3A%2F%2Fcdnassets.hw.net%2F59%2F2d%2F91f140e44955a9701465d1dfe57f%2F6b25a623-3491-4e48-89f1-ea8148a1e3af.jpg",
+          "date": "15 July"
+        },
+        {
+          "tags": [],
+          "title": "Fitness Tips for Every Body",
+          "author": "Dr. Sarah Thompson",
+          "excerpt": "Explore practical fitness tips and exercises that cater to different fitness levels and goals.",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXJwqHMOrButRhz2XsQhLYzSkRj1Styqg_4uQquPnXTzBZN9rXk8QqtHna_XyoYgsoffQ&usqp=CAU",
+          "date": "25 July"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true,
+      "title": "CLIENT TESTIMONIALS",
+      "slides": [
+        {
+          "content": {
+            "description": "WellnessHub has been instrumental in my journey to better health. The resources and guidance provided have helped me make positive changes in my lifestyle.",
+            "name": "John Smith, Wellness Enthusiast"
+          }
+        },
+        {
+          "content": {
+            "description": "I've found inspiration and practical advice at WellnessHub that has improved my well-being. It's more than a platform; it's a community dedicated to holistic living.",
+            "name": "Jane Doe, Holistic Practitioner"
+          }
+        },
+        {
+          "content": {
+            "description": "As a fitness coach, I recommend WellnessHub to all my clients looking to enhance their health and wellness journey. It's an invaluable resource.",
+            "name": "Mark Johnson, Fitness Coach"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "questions": [
+        {},
+        {
+          "title": "What kind of topics does WellnessHub cover?",
+          "answer": "<p>We cover a wide range of topics including mindfulness, nutrition, fitness, holistic health practices, and lifestyle tips for overall well-being.</p>"
+        },
+        {
+          "title": "How often is the content updated?",
+          "answer": "<p>We update our content regularly with new articles, tips, and insights to keep you informed about the latest trends in wellness.</p>"
+        },
+        {
+          "title": "Can I contribute to WellnessHub?",
+          "answer": "<p>Yes, we welcome guest contributions from experts and enthusiasts who share our passion for holistic health. Contact us for more information on submitting your articles.</p>"
+        },
+        {
+          "title": "How can I stay informed about new content?",
+          "answer": "<p>Stay connected with us by subscribing to our newsletter, following us on social media, or visiting our blog regularly for updates on wellness topics.</p>"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
